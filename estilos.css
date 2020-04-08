@@ -1,0 +1,115 @@
+*{
+	margin: 0 auto;
+}
+body {
+	background-color: white;
+}
+section {
+	display: flex;
+}
+nav {
+	background-color: maroon;
+	height: 4em;
+}
+li{
+	list-style: none;
+	float: right;
+}
+a{
+	text-decoration: none;
+	color: pink;
+	float: center;
+	text-align: center;
+	padding: 30px;
+}
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 24px;
+	color: pink;
+	text-align: center;
+}
+h3,p {
+	text-align: center;
+	font-family: 'Cairo', sans-serif;
+}
+dt {
+	font-size: 20px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+dl {
+	font-size: 18px; 
+font-family: 'Cairo', sans-serif;
+}
+
+img {
+	border-radius: 16px;
+}
+.principal {
+	max-width: 100%;
+	border-radius: 0;
+}
+.texto-encima{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cairo', sans-serif;
+    color: white;
+    font-size: 20px;
+   }
+.foto {
+	width: 300px;
+	padding:30px;
+}
+.foto:hover {
+	filter: brightness(150%);
+}
+.texto {
+	padding: 30px;
+}
+.fila1 {
+	background-color: white;
+}
+.fila2{
+	background-color: #ffd3b8;
+}
+.fila3{
+	background-color: #c2d4ff;
+}
+.datos {
+float: left
+}
+.contact {
+float: right;
+background-color:seashell;
+border-radius: 15px;
+border-style: double;
+border-color: lightsalmon;
+}
+.button {
+	background-color: #E48681;
+	border-color: rgba(0,0,0,0.3);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
+	color: #FFF;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+	padding: 10px 30px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-bottom-width: 3px;
+}
+
+.button:hover {
+		background-color: #DA4F49;
+		border-color: rgba(0,0,0,0.5);
+	}
+	
+.button:active {
+		background-color: #B32C24;
+		border-color: rgba(0,0,0,0.9);
+	}
